@@ -23,7 +23,7 @@ function Members() {
 
   return (
     <div>
-      <h4><b>Super table</b></h4>
+      <h4><b>Members Wow!</b></h4>
       
       <table className='table table-striped'>
         <thead>

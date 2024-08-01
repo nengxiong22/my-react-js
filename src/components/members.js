@@ -39,14 +39,14 @@ function Members() {
 
         <tbody>
           {data.map(item => (
-          <tr>
-            <td key={item.id}>{item.id}</td>
-            <td key={item.id}>{item.name}</td>
-            <td key={item.id}>{item.username}</td>
-            <td key={item.id}>{item.email}</td>
-            <td key={item.id}>{item.phone}</td>
-            <td key={item.id}>{item.website}</td>
-          </tr>
+            <tr key={item.id}>
+              <td>{item.id}</td>
+              <td>{item.name}</td>
+              <td>{item.username}</td>
+              <td>{item.email}</td>
+              <td>{item.phone}</td>
+              <td>{item.website}</td>
+            </tr>
           ))}
         </tbody>
       </table>

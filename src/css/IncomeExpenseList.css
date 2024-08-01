@@ -1,0 +1,12 @@
+table a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+table #edit{
+    color: blue;
+}
+
+table #delete{
+    color: red;
+}
